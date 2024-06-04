@@ -1,7 +1,8 @@
+
 const Header = ()=> {
     return (
         <div className="header">
-            <img src="public/Netflix_Logo_PMS.png" alt="" />
+            <img src={'/logo.png'} alt="" />
         </div>
     )
 }
