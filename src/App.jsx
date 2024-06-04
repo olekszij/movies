@@ -12,7 +12,7 @@ function App() {
         return (
           <section key={elem.category}>
             <h2>{elem.category}</h2>
-            <div className="images">
+            <div className="images scroll-container">
               {elem.images.map((image, index) => {
                 return (
                   <div key={index}>

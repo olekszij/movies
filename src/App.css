@@ -13,6 +13,24 @@ body {
   overflow: scroll;
 }
 
+.container {
+  width: 100%;
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+.scroll-container {
+  overflow: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Webkit browsers */
+}
+
+.container > section:nth-of-type(4) {
+  height: 230px;
+}
 h2 {
   font-size: 22px;
   margin: 10px;
